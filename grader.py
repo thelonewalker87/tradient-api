@@ -14,7 +14,7 @@ import json
 from models import TradeInput, TradeMetrics, GradeResult, DimensionScore
 from metrics import calculate_metrics, detect_patterns
 
-MODEL = "meta-llama/llama-3.3-70b-instruct:free"
+MODEL = "openrouter/free"
 
 client = OpenAI(                                   
     base_url = "https://openrouter.ai/api/v1",

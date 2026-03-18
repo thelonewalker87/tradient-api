@@ -23,7 +23,7 @@ from models import TradeInput
 
 router = APIRouter(prefix="/ai")
 
-MODEL  = "meta-llama/llama-3.3-70b-instruct:free"
+MODEL  = "openrouter/free"
 
 client = OpenAI(                               
     base_url = "https://openrouter.ai/api/v1",
